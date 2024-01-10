@@ -6,7 +6,7 @@ on:
 
 env:
   AZURE_WEBAPP_NAME: nextlibapp    # application's name
-  AZURE_WEBAPP_PACKAGE_PATH: './nextlibapp'      # set this to the path to your web app project
+  #AZURE_WEBAPP_PACKAGE_PATH: './nextlibapp'      # set this to the path to your web app project
   NODE_VERSION: '18.x'
 
 jobs:
@@ -28,5 +28,5 @@ jobs:
       with: 
         app-name: ${{ env.AZURE_WEBAPP_NAME }}
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-        package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
-
+        #package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+        package: ./

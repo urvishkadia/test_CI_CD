@@ -5,7 +5,7 @@ on:
     branches: [ "main" ]
 
 env:
-  AZURE_WEBAPP_NAME: nextlibapp    # application's name
+  AZURE_WEBAPP_NAME: nextlibapp
   #AZURE_WEBAPP_PACKAGE_PATH: './nextlibapp'      # set this to the path to your web app project
   NODE_VERSION: '18.x'
 

@@ -1,4 +1,4 @@
-Name: Publish angular app on azure web app
+name: Angular
 
 on:
   push:

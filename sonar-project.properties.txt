@@ -1,0 +1,1 @@
+sonar.projectKey=Test-PR-Scan-111
